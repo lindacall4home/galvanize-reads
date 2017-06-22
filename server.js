@@ -22,7 +22,7 @@ app.use((err, req, res, next)=>{
 });
 
 app.use((req, res)=>{
-  res.sentStatus(404);
+  res.sendStatus(404);
 });
 
 app.listen(port);
